@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>SchemeUserState</key>
+	<dict>
+		<key>DigitRecognition.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>0</integer>
+		</dict>
+		<key>LibMaker_debug.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>1</integer>
+		</dict>
+		<key>LibMaker_release.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>2</integer>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>7991A0FA1C53A87C00AED9DF</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>7991A0FE1C53A88E00AED9DF</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>79F37C031C532BAF0083F84A</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>79F37C1C1C532BB00083F84A</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+	</dict>
+</dict>
+</plist>

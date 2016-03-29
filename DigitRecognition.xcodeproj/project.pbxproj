@@ -1,0 +1,695 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		7991A0FA1C53A87C00AED9DF /* LibMaker_debug */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 7991A0FB1C53A87C00AED9DF /* Build configuration list for PBXAggregateTarget "LibMaker_debug" */;
+			buildPhases = (
+			);
+			dependencies = (
+			);
+			name = LibMaker_debug;
+			productName = LibMaker_debug;
+		};
+		7991A0FE1C53A88E00AED9DF /* LibMaker_release */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 7991A0FF1C53A88E00AED9DF /* Build configuration list for PBXAggregateTarget "LibMaker_release" */;
+			buildPhases = (
+			);
+			dependencies = (
+			);
+			name = LibMaker_release;
+			productName = LibMaker_release;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		7991A0D81C539F2100AED9DF /* opencv2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7991A0D71C539F2100AED9DF /* opencv2.framework */; };
+		7991A0DA1C53A24700AED9DF /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7991A0D91C53A24700AED9DF /* CoreMedia.framework */; };
+		7991A1131C53AC6C00AED9DF /* libOCREngine_ios.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7991A1121C53AC6C00AED9DF /* libOCREngine_ios.a */; };
+		7991A1161C53EAE800AED9DF /* pattern_digit.nn in Resources */ = {isa = PBXBuildFile; fileRef = 7991A1151C53EAE800AED9DF /* pattern_digit.nn */; };
+		79F37C0A1C532BAF0083F84A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 79F37C091C532BAF0083F84A /* main.m */; };
+		79F37C0D1C532BAF0083F84A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 79F37C0C1C532BAF0083F84A /* AppDelegate.m */; };
+		79F37C131C532BAF0083F84A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 79F37C111C532BAF0083F84A /* Main.storyboard */; };
+		79F37C151C532BAF0083F84A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 79F37C141C532BAF0083F84A /* Images.xcassets */; };
+		79F37C181C532BAF0083F84A /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 79F37C161C532BAF0083F84A /* LaunchScreen.xib */; };
+		79F37C241C532BB00083F84A /* DigitRecognitionTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 79F37C231C532BB00083F84A /* DigitRecognitionTests.m */; };
+		79F37C331C5340FA0083F84A /* DownPicker.m in Sources */ = {isa = PBXBuildFile; fileRef = 79F37C301C5340FA0083F84A /* DownPicker.m */; };
+		79F37C341C5340FA0083F84A /* UIDownPicker.m in Sources */ = {isa = PBXBuildFile; fileRef = 79F37C321C5340FA0083F84A /* UIDownPicker.m */; };
+		79F37C381C53636C0083F84A /* VIPhotoView.m in Sources */ = {isa = PBXBuildFile; fileRef = 79F37C371C53636C0083F84A /* VIPhotoView.m */; };
+		79F37C3A1C536B690083F84A /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 79F37C391C536B690083F84A /* AVFoundation.framework */; };
+		79F37C3D1C536C530083F84A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 79F37C3C1C536C530083F84A /* UIKit.framework */; };
+		79F37C431C536CB10083F84A /* UIImage+FixOrientation.m in Sources */ = {isa = PBXBuildFile; fileRef = 79F37C401C536CB10083F84A /* UIImage+FixOrientation.m */; };
+		79F37C441C536CB10083F84A /* UIImage+Utilities.m in Sources */ = {isa = PBXBuildFile; fileRef = 79F37C421C536CB10083F84A /* UIImage+Utilities.m */; };
+		79F37C461C536D290083F84A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 79F37C451C536D290083F84A /* Foundation.framework */; };
+		79F37C481C536D310083F84A /* AssetsLibrary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 79F37C471C536D310083F84A /* AssetsLibrary.framework */; };
+		79F37C4F1C53829B0083F84A /* RMPinchGestureRecognizer.m in Sources */ = {isa = PBXBuildFile; fileRef = 79F37C4E1C53829B0083F84A /* RMPinchGestureRecognizer.m */; };
+		ABA63ECA1C570FAE00803F47 /* DigitRecognizer.xib in Resources */ = {isa = PBXBuildFile; fileRef = ABA63EC91C570FAE00803F47 /* DigitRecognizer.xib */; };
+		ABA63ECF1C5710EE00803F47 /* Gotham-Book.ttf in Resources */ = {isa = PBXBuildFile; fileRef = ABA63ECD1C5710EE00803F47 /* Gotham-Book.ttf */; };
+		ABA63ED01C5710EE00803F47 /* ScannerBack.png in Resources */ = {isa = PBXBuildFile; fileRef = ABA63ECE1C5710EE00803F47 /* ScannerBack.png */; };
+		ABA63ED71C571FFB00803F47 /* ViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = ABA63ED61C571FFB00803F47 /* ViewController.mm */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		79F37C1E1C532BB00083F84A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 79F37BFC1C532BAF0083F84A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 79F37C031C532BAF0083F84A;
+			remoteInfo = DigitRecognition;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		7991A0D71C539F2100AED9DF /* opencv2.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = opencv2.framework; sourceTree = "<group>"; };
+		7991A0D91C53A24700AED9DF /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+		7991A1101C53AC5B00AED9DF /* NipTypes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NipTypes.h; path = OcrEngine.h/include/OCREngine/NipTypes.h; sourceTree = "<group>"; };
+		7991A1111C53AC5B00AED9DF /* OCREngine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = OCREngine.h; path = OcrEngine.h/include/OCREngine/OCREngine.h; sourceTree = "<group>"; };
+		7991A1121C53AC6C00AED9DF /* libOCREngine_ios.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libOCREngine_ios.a; path = DigitRecognition/OcrEngine.h/libOCREngine_ios.a; sourceTree = "<group>"; };
+		7991A1151C53EAE800AED9DF /* pattern_digit.nn */ = {isa = PBXFileReference; lastKnownFileType = file; name = pattern_digit.nn; path = OcrEngine.h/pattern_digit.nn; sourceTree = "<group>"; };
+		79F37C041C532BAF0083F84A /* DigitRecognition.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DigitRecognition.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		79F37C081C532BAF0083F84A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		79F37C091C532BAF0083F84A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		79F37C0B1C532BAF0083F84A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		79F37C0C1C532BAF0083F84A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		79F37C121C532BAF0083F84A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		79F37C141C532BAF0083F84A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		79F37C171C532BAF0083F84A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		79F37C1D1C532BB00083F84A /* DigitRecognitionTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DigitRecognitionTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		79F37C221C532BB00083F84A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		79F37C231C532BB00083F84A /* DigitRecognitionTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DigitRecognitionTests.m; sourceTree = "<group>"; };
+		79F37C2F1C5340FA0083F84A /* DownPicker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DownPicker.h; path = UIDownPicker/DownPicker.h; sourceTree = "<group>"; };
+		79F37C301C5340FA0083F84A /* DownPicker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DownPicker.m; path = UIDownPicker/DownPicker.m; sourceTree = "<group>"; };
+		79F37C311C5340FA0083F84A /* UIDownPicker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = UIDownPicker.h; path = UIDownPicker/UIDownPicker.h; sourceTree = "<group>"; };
+		79F37C321C5340FA0083F84A /* UIDownPicker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = UIDownPicker.m; path = UIDownPicker/UIDownPicker.m; sourceTree = "<group>"; };
+		79F37C361C53636C0083F84A /* VIPhotoView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = VIPhotoView.h; path = VIPhotoView/VIPhotoView.h; sourceTree = "<group>"; };
+		79F37C371C53636C0083F84A /* VIPhotoView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = VIPhotoView.m; path = VIPhotoView/VIPhotoView.m; sourceTree = "<group>"; };
+		79F37C391C536B690083F84A /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		79F37C3C1C536C530083F84A /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		79F37C3F1C536CB10083F84A /* UIImage+FixOrientation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIImage+FixOrientation.h"; path = "UIImage/UIImage+FixOrientation.h"; sourceTree = "<group>"; };
+		79F37C401C536CB10083F84A /* UIImage+FixOrientation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIImage+FixOrientation.m"; path = "UIImage/UIImage+FixOrientation.m"; sourceTree = "<group>"; };
+		79F37C411C536CB10083F84A /* UIImage+Utilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIImage+Utilities.h"; path = "UIImage/UIImage+Utilities.h"; sourceTree = "<group>"; };
+		79F37C421C536CB10083F84A /* UIImage+Utilities.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Utilities.m"; path = "UIImage/UIImage+Utilities.m"; sourceTree = "<group>"; };
+		79F37C451C536D290083F84A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		79F37C471C536D310083F84A /* AssetsLibrary.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AssetsLibrary.framework; path = System/Library/Frameworks/AssetsLibrary.framework; sourceTree = SDKROOT; };
+		79F37C4D1C53829B0083F84A /* RMPinchGestureRecognizer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RMPinchGestureRecognizer.h; path = RMPinchGestureRecognizer/RMPinchGestureRecognizer.h; sourceTree = "<group>"; };
+		79F37C4E1C53829B0083F84A /* RMPinchGestureRecognizer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RMPinchGestureRecognizer.m; path = RMPinchGestureRecognizer/RMPinchGestureRecognizer.m; sourceTree = "<group>"; };
+		ABA63EC91C570FAE00803F47 /* DigitRecognizer.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DigitRecognizer.xib; sourceTree = "<group>"; };
+		ABA63ECD1C5710EE00803F47 /* Gotham-Book.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Gotham-Book.ttf"; sourceTree = "<group>"; };
+		ABA63ECE1C5710EE00803F47 /* ScannerBack.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ScannerBack.png; sourceTree = "<group>"; };
+		ABA63ED51C571FFB00803F47 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		ABA63ED61C571FFB00803F47 /* ViewController.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = ViewController.mm; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		79F37C011C532BAF0083F84A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7991A0DA1C53A24700AED9DF /* CoreMedia.framework in Frameworks */,
+				7991A1131C53AC6C00AED9DF /* libOCREngine_ios.a in Frameworks */,
+				7991A0D81C539F2100AED9DF /* opencv2.framework in Frameworks */,
+				79F37C481C536D310083F84A /* AssetsLibrary.framework in Frameworks */,
+				79F37C461C536D290083F84A /* Foundation.framework in Frameworks */,
+				79F37C3D1C536C530083F84A /* UIKit.framework in Frameworks */,
+				79F37C3A1C536B690083F84A /* AVFoundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		79F37C1A1C532BB00083F84A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7991A10D1C53AC3E00AED9DF /* Engine */ = {
+			isa = PBXGroup;
+			children = (
+				7991A1101C53AC5B00AED9DF /* NipTypes.h */,
+				7991A1111C53AC5B00AED9DF /* OCREngine.h */,
+			);
+			name = Engine;
+			sourceTree = "<group>";
+		};
+		7991A1141C53EAC400AED9DF /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				ABA63ECD1C5710EE00803F47 /* Gotham-Book.ttf */,
+				ABA63ECE1C5710EE00803F47 /* ScannerBack.png */,
+				7991A1151C53EAE800AED9DF /* pattern_digit.nn */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		79F37BFB1C532BAF0083F84A = {
+			isa = PBXGroup;
+			children = (
+				79F37C061C532BAF0083F84A /* DigitRecognition */,
+				79F37C201C532BB00083F84A /* DigitRecognitionTests */,
+				79F37C051C532BAF0083F84A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		79F37C051C532BAF0083F84A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				79F37C041C532BAF0083F84A /* DigitRecognition.app */,
+				79F37C1D1C532BB00083F84A /* DigitRecognitionTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		79F37C061C532BAF0083F84A /* DigitRecognition */ = {
+			isa = PBXGroup;
+			children = (
+				7991A1141C53EAC400AED9DF /* Resources */,
+				7991A10D1C53AC3E00AED9DF /* Engine */,
+				79F37C491C53824D0083F84A /* RMPinchGestureRecognizer */,
+				79F37C3E1C536C8D0083F84A /* UIImage */,
+				79F37C351C53634C0083F84A /* VIPhotoView */,
+				79F37C2E1C5340D40083F84A /* UIDownPicker */,
+				79F37C0B1C532BAF0083F84A /* AppDelegate.h */,
+				79F37C0C1C532BAF0083F84A /* AppDelegate.m */,
+				ABA63ED51C571FFB00803F47 /* ViewController.h */,
+				ABA63ED61C571FFB00803F47 /* ViewController.mm */,
+				ABA63EC91C570FAE00803F47 /* DigitRecognizer.xib */,
+				79F37C111C532BAF0083F84A /* Main.storyboard */,
+				79F37C141C532BAF0083F84A /* Images.xcassets */,
+				79F37C161C532BAF0083F84A /* LaunchScreen.xib */,
+				79F37C071C532BAF0083F84A /* Supporting Files */,
+				79F37C3B1C536B700083F84A /* Frameworks */,
+			);
+			path = DigitRecognition;
+			sourceTree = "<group>";
+		};
+		79F37C071C532BAF0083F84A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				79F37C081C532BAF0083F84A /* Info.plist */,
+				79F37C091C532BAF0083F84A /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		79F37C201C532BB00083F84A /* DigitRecognitionTests */ = {
+			isa = PBXGroup;
+			children = (
+				79F37C231C532BB00083F84A /* DigitRecognitionTests.m */,
+				79F37C211C532BB00083F84A /* Supporting Files */,
+			);
+			path = DigitRecognitionTests;
+			sourceTree = "<group>";
+		};
+		79F37C211C532BB00083F84A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				79F37C221C532BB00083F84A /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		79F37C2E1C5340D40083F84A /* UIDownPicker */ = {
+			isa = PBXGroup;
+			children = (
+				79F37C2F1C5340FA0083F84A /* DownPicker.h */,
+				79F37C301C5340FA0083F84A /* DownPicker.m */,
+				79F37C311C5340FA0083F84A /* UIDownPicker.h */,
+				79F37C321C5340FA0083F84A /* UIDownPicker.m */,
+			);
+			name = UIDownPicker;
+			sourceTree = "<group>";
+		};
+		79F37C351C53634C0083F84A /* VIPhotoView */ = {
+			isa = PBXGroup;
+			children = (
+				79F37C361C53636C0083F84A /* VIPhotoView.h */,
+				79F37C371C53636C0083F84A /* VIPhotoView.m */,
+			);
+			name = VIPhotoView;
+			sourceTree = "<group>";
+		};
+		79F37C3B1C536B700083F84A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7991A1121C53AC6C00AED9DF /* libOCREngine_ios.a */,
+				7991A0D91C53A24700AED9DF /* CoreMedia.framework */,
+				7991A0D71C539F2100AED9DF /* opencv2.framework */,
+				79F37C471C536D310083F84A /* AssetsLibrary.framework */,
+				79F37C451C536D290083F84A /* Foundation.framework */,
+				79F37C3C1C536C530083F84A /* UIKit.framework */,
+				79F37C391C536B690083F84A /* AVFoundation.framework */,
+			);
+			name = Frameworks;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		79F37C3E1C536C8D0083F84A /* UIImage */ = {
+			isa = PBXGroup;
+			children = (
+				79F37C3F1C536CB10083F84A /* UIImage+FixOrientation.h */,
+				79F37C401C536CB10083F84A /* UIImage+FixOrientation.m */,
+				79F37C411C536CB10083F84A /* UIImage+Utilities.h */,
+				79F37C421C536CB10083F84A /* UIImage+Utilities.m */,
+			);
+			name = UIImage;
+			sourceTree = "<group>";
+		};
+		79F37C491C53824D0083F84A /* RMPinchGestureRecognizer */ = {
+			isa = PBXGroup;
+			children = (
+				79F37C4D1C53829B0083F84A /* RMPinchGestureRecognizer.h */,
+				79F37C4E1C53829B0083F84A /* RMPinchGestureRecognizer.m */,
+			);
+			name = RMPinchGestureRecognizer;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		79F37C031C532BAF0083F84A /* DigitRecognition */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 79F37C271C532BB00083F84A /* Build configuration list for PBXNativeTarget "DigitRecognition" */;
+			buildPhases = (
+				79F37C001C532BAF0083F84A /* Sources */,
+				79F37C021C532BAF0083F84A /* Resources */,
+				79F37C011C532BAF0083F84A /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DigitRecognition;
+			productName = DigitRecognition;
+			productReference = 79F37C041C532BAF0083F84A /* DigitRecognition.app */;
+			productType = "com.apple.product-type.application";
+		};
+		79F37C1C1C532BB00083F84A /* DigitRecognitionTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 79F37C2A1C532BB00083F84A /* Build configuration list for PBXNativeTarget "DigitRecognitionTests" */;
+			buildPhases = (
+				79F37C191C532BB00083F84A /* Sources */,
+				79F37C1A1C532BB00083F84A /* Frameworks */,
+				79F37C1B1C532BB00083F84A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				79F37C1F1C532BB00083F84A /* PBXTargetDependency */,
+			);
+			name = DigitRecognitionTests;
+			productName = DigitRecognitionTests;
+			productReference = 79F37C1D1C532BB00083F84A /* DigitRecognitionTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		79F37BFC1C532BAF0083F84A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = Wolf;
+				TargetAttributes = {
+					7991A0FA1C53A87C00AED9DF = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					7991A0FE1C53A88E00AED9DF = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					79F37C031C532BAF0083F84A = {
+						CreatedOnToolsVersion = 6.4;
+						DevelopmentTeam = DWDFA22J2U;
+					};
+					79F37C1C1C532BB00083F84A = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = 79F37C031C532BAF0083F84A;
+					};
+				};
+			};
+			buildConfigurationList = 79F37BFF1C532BAF0083F84A /* Build configuration list for PBXProject "DigitRecognition" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 79F37BFB1C532BAF0083F84A;
+			productRefGroup = 79F37C051C532BAF0083F84A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				79F37C031C532BAF0083F84A /* DigitRecognition */,
+				79F37C1C1C532BB00083F84A /* DigitRecognitionTests */,
+				7991A0FA1C53A87C00AED9DF /* LibMaker_debug */,
+				7991A0FE1C53A88E00AED9DF /* LibMaker_release */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		79F37C021C532BAF0083F84A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7991A1161C53EAE800AED9DF /* pattern_digit.nn in Resources */,
+				79F37C131C532BAF0083F84A /* Main.storyboard in Resources */,
+				79F37C181C532BAF0083F84A /* LaunchScreen.xib in Resources */,
+				ABA63ECF1C5710EE00803F47 /* Gotham-Book.ttf in Resources */,
+				ABA63ECA1C570FAE00803F47 /* DigitRecognizer.xib in Resources */,
+				ABA63ED01C5710EE00803F47 /* ScannerBack.png in Resources */,
+				79F37C151C532BAF0083F84A /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		79F37C1B1C532BB00083F84A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		79F37C001C532BAF0083F84A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				79F37C381C53636C0083F84A /* VIPhotoView.m in Sources */,
+				79F37C331C5340FA0083F84A /* DownPicker.m in Sources */,
+				ABA63ED71C571FFB00803F47 /* ViewController.mm in Sources */,
+				79F37C431C536CB10083F84A /* UIImage+FixOrientation.m in Sources */,
+				79F37C0D1C532BAF0083F84A /* AppDelegate.m in Sources */,
+				79F37C341C5340FA0083F84A /* UIDownPicker.m in Sources */,
+				79F37C4F1C53829B0083F84A /* RMPinchGestureRecognizer.m in Sources */,
+				79F37C441C536CB10083F84A /* UIImage+Utilities.m in Sources */,
+				79F37C0A1C532BAF0083F84A /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		79F37C191C532BB00083F84A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				79F37C241C532BB00083F84A /* DigitRecognitionTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		79F37C1F1C532BB00083F84A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 79F37C031C532BAF0083F84A /* DigitRecognition */;
+			targetProxy = 79F37C1E1C532BB00083F84A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		79F37C111C532BAF0083F84A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				79F37C121C532BAF0083F84A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		79F37C161C532BAF0083F84A /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				79F37C171C532BAF0083F84A /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7991A0FC1C53A87C00AED9DF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer: Pritesh Zhao Spark (66KZBB58Q3)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		7991A0FD1C53A87C00AED9DF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer: Pritesh Zhao Spark (66KZBB58Q3)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		7991A1001C53A88E00AED9DF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		7991A1011C53A88E00AED9DF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		79F37C251C532BB00083F84A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_BITCODE = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_INPUT_FILETYPE = automatic;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		79F37C261C532BB00083F84A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_BITCODE = NO;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_INPUT_FILETYPE = automatic;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		79F37C281C532BB00083F84A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Brand Assets";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				GCC_INPUT_FILETYPE = automatic;
+				INFOPLIST_FILE = DigitRecognition/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/DigitRecognition/OcrEngine.h",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.wolf.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		79F37C291C532BB00083F84A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Brand Assets";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				GCC_INPUT_FILETYPE = automatic;
+				INFOPLIST_FILE = DigitRecognition/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/DigitRecognition/OcrEngine.h",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.wolf.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+		79F37C2B1C532BB00083F84A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = DigitRecognitionTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Parse.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DigitRecognition.app/DigitRecognition";
+			};
+			name = Debug;
+		};
+		79F37C2C1C532BB00083F84A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = DigitRecognitionTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Parse.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DigitRecognition.app/DigitRecognition";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7991A0FB1C53A87C00AED9DF /* Build configuration list for PBXAggregateTarget "LibMaker_debug" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7991A0FC1C53A87C00AED9DF /* Debug */,
+				7991A0FD1C53A87C00AED9DF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7991A0FF1C53A88E00AED9DF /* Build configuration list for PBXAggregateTarget "LibMaker_release" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7991A1001C53A88E00AED9DF /* Debug */,
+				7991A1011C53A88E00AED9DF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		79F37BFF1C532BAF0083F84A /* Build configuration list for PBXProject "DigitRecognition" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				79F37C251C532BB00083F84A /* Debug */,
+				79F37C261C532BB00083F84A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		79F37C271C532BB00083F84A /* Build configuration list for PBXNativeTarget "DigitRecognition" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				79F37C281C532BB00083F84A /* Debug */,
+				79F37C291C532BB00083F84A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		79F37C2A1C532BB00083F84A /* Build configuration list for PBXNativeTarget "DigitRecognitionTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				79F37C2B1C532BB00083F84A /* Debug */,
+				79F37C2C1C532BB00083F84A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 79F37BFC1C532BAF0083F84A /* Project object */;
+}
